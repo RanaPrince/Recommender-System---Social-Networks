@@ -1,0 +1,63 @@
+🚀 **Social Network Link Prediction with Machine Learning** 🌐  
+
+As a passionate **Data Scientist**, I’m excited to share my project that predicts missing links in a directed social network, enabling effective **user recommendations**. This project combines **advanced graph analytics** and **machine learning** for actionable insights.  
+
+---
+
+### 🔑 **Key Highlights**  
+
+1️⃣ **Graph-Based Feature Engineering**  
+- **Node-Level Metrics**: Followers, followees, PageRank, Katz centrality, HITS scores.  
+- **Similarity Metrics**: Jaccard & Cosine Similarities.  
+- **Edge-Level Metrics**: Weighted edges, preferential attachment.  
+- **Community & Path Metrics**: Weakly connected components, shortest paths, Adamic-Adar index.  
+- **SVD**: Features derived from the adjacency matrix.  
+
+2️⃣ **Supervised Learning Model**  
+- **Model**: XGBoost Classifier  
+- **Metrics**: F1 Score, AUC, Precision-Recall  
+- **Best Hyperparameters**:  
+  - `max_depth=10`, `n_estimators=62`  
+
+---
+
+### 📈 **Performance**  
+
+| **Metric**        | **Train Score** | **Test Score** |  
+|--------------------|-----------------|----------------|  
+| **F1 Score**       | 0.983           | 0.928          |  
+| **AUC**            | -               | 0.932          |  
+
+🔑 **Top Features**:  
+- `follows_back`  
+- `cosine_followers`  
+
+---
+
+### 🔮 **Future Directions**  
+- Explore advanced metrics like clustering coefficients.  
+- Scale using distributed tools (GraphX, PyTorch Geometric).  
+- Compare with Graph Neural Networks.  
+- Develop real-time prediction pipelines.  
+
+---
+
+### 📂 **Repo & Quick Start**  
+Clone the project here:  
+[**GitHub Repo**](https://github.com/RanaPrince/Recommender-System---Social-Networks/tree/main)  
+
+```bash
+git clone https://github.com/RanaPrince/Recommender-System---Social-Networks.git
+```  
+
+📖 Modular and well-documented, making it easy to adapt and expand.
+
+---
+
+📣 **Let’s Connect!**  
+I’m always open to discussions on **data science**, **graph analytics**, and **machine learning**. Let’s collaborate!  
+
+📩 **Email**: ranaprinceai@gmail.com  
+🌐 **GitHub**: [https://github.com/RanaPrince]  
+
+#DataScience #MachineLearning #GraphAnalytics #LinkPrediction #AI #FeatureEngineering #XGBoost #Python 🧠✨
