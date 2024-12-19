@@ -117,3 +117,69 @@ The Receiver Operating Characteristic (ROC) curve showcased a high area under th
 This project demonstrates the use of advanced graph mining techniques and machine learning to predict missing links in a directed social graph. The results highlight the power of feature engineering and supervised learning for effective link prediction.
 
 ---
+
+## **Additional Features**
+- **Scalable and Modular Code:** The project is modular and allows easy addition of new features or models.
+- **Comprehensive Documentation:** The repository includes clear instructions for setup and usage, making it beginner-friendly.
+- **Advanced Feature Engineering:** Incorporates cutting-edge graph-based algorithms such as SVD, Katz centrality, and PageRank.
+- **Extensive Evaluation Metrics:** Includes multiple evaluation metrics like F1 Score, AUC, and confusion matrix for comprehensive analysis.
+
+---
+
+## **Future Work**
+- **Improved Feature Engineering:** Explore additional graph-based metrics like triadic closure and clustering coefficients.
+- **Scalability:** Extend the project to handle large-scale datasets using distributed graph processing tools like GraphX or PyTorch Geometric.
+- **Algorithm Comparison:** Benchmark other algorithms (e.g., Graph Neural Networks) against XGBoost.
+- **Real-Time Predictions:** Build a pipeline for real-time link prediction.
+
+
+## How to Clone and Run the Project
+
+### Clone the Repository
+Use the following command to clone the repository:
+
+```bash
+git clone https://github.com/<your-username>/<your-repo-name>.git
+```
+Replace `<your-username>` and `<your-repo-name>` with your GitHub username and repository name.
+
+### Navigate to the Project Directory
+
+```bash
+cd <your-repo-name>
+```
+
+### Set Up Virtual Environment (Optional but Recommended)
+Create and activate a virtual environment:
+
+```bash
+python -m venv venv
+source venv/bin/activate  # For Linux/macOS
+venv\Scripts\activate   # For Windows
+```
+
+### Install Dependencies
+Install the required libraries using pip:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run the Project
+Open the main notebook or script (e.g., `Social_Network_Graph_Link_Prediction.ipynb`) in Jupyter Notebook or run any associated Python files:
+
+```bash
+jupyter notebook
+```
+
+## Contact Information
+
+**Author:** [Prince Rana]  
+**Email:** [ranaprinceai@gmail.com]  
+**GitHub:** [https://github.com/RanaPrince]
+
+
+
+
+
+
